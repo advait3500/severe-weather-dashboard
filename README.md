@@ -2,6 +2,13 @@
 
 A full-stack web application that displays live severe weather alerts from the National Weather Service (NWS) for major Texas cities, with an interactive map view.
 
+## Live Demo
+
+- **App:** https://severe-weather-dashboard.vercel.app
+- **API:** https://severe-weather-backend.onrender.com/api/alerts?state=TX
+
+*Note: the backend is on Render's free tier, so it may take 30–60 seconds to wake up if it's been idle.*
+
 ## Overview
 
 This project pulls real-time alert data from the NWS public API, filters it down to alerts affecting major Texas metro areas, and displays it as both an interactive map and a styled list view. Built as an extension of an earlier severe weather alert optimization project, this version turns that static analysis into a live, deployed application.
