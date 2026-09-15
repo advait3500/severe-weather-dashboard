@@ -50,7 +50,7 @@ function App() {
 
       <MapContainer center={[31.5, -99.5]} zoom={6} style={{ height: "400px", borderRadius: "8px", marginBottom: "24px" }}>
         <TileLayer
-          url="https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png"
+          url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
           attribution='&copy; OpenStreetMap contributors &copy; CARTO'
         />
         {alerts.flatMap((alert) =>
